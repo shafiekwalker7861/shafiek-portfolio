@@ -18,7 +18,7 @@ function MusicPlayer() {
 
   return (
     <div className="music-player">
-      <audio ref={audioRef} src="/audio/soundtrack.mp3" loop />
+      <audio ref={audioRef} src={`${import.meta.env.BASE_URL}sounds/soundtrack.mp3`} loop />
       <button onClick={toggleMusic}>
         {playing ? "Pause Sound" : "Play Sound"}
       </button>
