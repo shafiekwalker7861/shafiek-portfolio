@@ -44,7 +44,13 @@ function Projects() {
             <p>{project.description}</p>
             <div className="project-links">
   <a href={project.github}>GitHub</a>
-  <a href={project.demo}>Live Demo</a>
+  <a
+  href={project.demo}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  View Project
+</a>
 </div>
           </motion.div>
         ))}
