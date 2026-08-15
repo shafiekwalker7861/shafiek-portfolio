@@ -499,24 +499,24 @@
 
 .projects {
   padding: clamp(90px, 11vw, 170px) max(48px, calc((100vw - 1440px) / 2));
-  color: #111512;
-  background: var(--paper);
+  color: var(--white);
+  background: rgba(5, 8, 6, 0.96);
 }
 
 .projects .section-label {
-  color: #087544;
+  color: var(--green);
 }
 
 .projects .section-intro {
-  color: #596159;
+  color: #8f9b92;
 }
 
 .project-filters {
   display: flex;
   gap: 0;
   margin-top: 72px;
-  border-top: 1px solid #aeb6ae;
-  border-bottom: 1px solid #aeb6ae;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 
 .project-filters button {
@@ -527,8 +527,8 @@
   flex: 1;
   padding: 18px 22px;
   border: 0;
-  border-right: 1px solid #aeb6ae;
-  color: #586159;
+  border-right: 1px solid var(--line);
+  color: #9ca8a0;
   background: transparent;
   cursor: pointer;
   font: 0.72rem/1 var(--mono);
@@ -542,17 +542,17 @@
 }
 
 .project-filters button.active {
-  color: var(--white);
-  background: #0b130e;
+  color: var(--ink);
+  background: var(--green);
 }
 
 .project-filters button span {
-  color: #7b857c;
+  color: #758078;
   font-size: 0.62rem;
 }
 
 .project-filters button.active span {
-  color: var(--green);
+  color: #0b4529;
 }
 
 .project-grid {
@@ -560,13 +560,13 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2px;
   margin-top: 40px;
-  background: #bfc6be;
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .project-card {
   min-width: 0;
   padding: 16px;
-  background: var(--paper);
+  background: #08100b;
 }
 
 .project-featured {
@@ -627,7 +627,7 @@
 
 .project-eyebrow {
   margin: 0 0 18px;
-  color: #367256;
+  color: var(--green);
   font-size: 0.65rem;
   letter-spacing: 0.1em;
 }
@@ -646,7 +646,7 @@
 .project-content > p:not(.project-eyebrow) {
   max-width: 580px;
   margin: 18px 0 0;
-  color: #636b64;
+  color: #8f9b92;
   line-height: 1.65;
 }
 
@@ -669,8 +669,8 @@
   align-items: center;
   min-height: 40px;
   padding: 0 14px;
-  border: 1px solid #828b83;
-  color: #273029;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: #c7d0c9;
   font: 0.68rem/1 var(--mono);
   text-decoration: none;
   text-transform: uppercase;
@@ -685,9 +685,9 @@
 
 .project-links a:hover,
 .project-links a:focus-visible {
-  border-color: #0b130e;
-  color: var(--white);
-  background: #0b130e;
+  border-color: var(--green);
+  color: var(--ink);
+  background: var(--green);
 }
 
 .project-featured .project-links a:hover,
@@ -699,7 +699,7 @@
 
 .project-status {
   border-style: dashed;
-  color: #7a4c2a;
+  color: #d49a68;
 }
 
 .generated-preview {
@@ -818,24 +818,24 @@
 .concept-note {
   max-width: 800px;
   margin: 28px 0 0;
-  color: #6c756d;
+  color: #849087;
   font: 0.68rem/1.6 var(--mono);
 }
 
 .section-handoff-dark {
-  border-top-color: #b6beb6;
-  color: #3b443c;
+  border-top-color: rgba(255, 255, 255, 0.16);
+  color: #bcc5bf;
 }
 
 .section-handoff-dark span {
-  border-color: #0b130e;
-  color: #0b130e;
+  border-color: var(--green);
+  color: var(--green);
 }
 
 .section-handoff-dark:hover span,
 .section-handoff-dark:focus-visible span {
-  color: var(--white);
-  background: #0b130e;
+  color: var(--ink);
+  background: var(--green);
 }
 
 .skills {
