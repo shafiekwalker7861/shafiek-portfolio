@@ -1,14 +1,18 @@
 function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="logo">&lt;SW/&gt;</div>
+    <nav className="navbar" aria-label="Primary navigation">
+      <a className="logo" href="#top" aria-label="Shafiek Walker, home">
+        &lt;SW/&gt;
+      </a>
 
       <ul>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Skills</li>
-        <li>Contact</li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
+
+      <a className="nav-cta" href="mailto:shafiekwalker1@gmail.com">Let&apos;s talk ↗</a>
     </nav>
   );
 }

@@ -9,14 +9,15 @@ function Terminal() {
   ]);
 
   const commands = {
-    help: ["Available commands:", "about", "skills", "projects", "contact", "clear"],
+    help: ["Available commands:", "about", "skills", "projects", "webflow", "contact", "clear"],
     about: [
-      "Designer transitioning into software development.",
-      "Currently learning React, JavaScript and Python.",
+      "Cape Town–based web developer and technical designer.",
+      "I build responsive, purposeful digital experiences.",
     ],
-    skills: ["HTML", "CSS", "JavaScript", "Python", "Git", "GitHub", "React"],
-    projects: ["Python Learning App", "Robotics Club Website", "Code Your Future Projects"],
-    contact: ["Email: westerncapetowndesigner@gmail.com", "GitHub: shafiekwalker7861"],
+    skills: ["Webflow", "HTML + CSS", "JavaScript", "React", "Git + GitHub", "On-page SEO"],
+    projects: ["CT3DR", "The Interior Company", "The Fix Hub", "Cape Town Designer", "TV Show Project"],
+    webflow: ["3 conversion-led concepts:", "Evergreen Lawn Care", "Northline Landscapes", "Harbor Home Services"],
+    contact: ["Email: shafiekwalker1@gmail.com", "GitHub: shafiekwalker7861"],
   };
 
   function handleCommand(e) {
@@ -61,7 +62,8 @@ function Terminal() {
             className="terminal-input"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            autoFocus
+            aria-label="Terminal command"
+            autoComplete="off"
           />
         </form>
       </div>

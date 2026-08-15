@@ -4,27 +4,36 @@ function Hero() {
   return (
     <motion.section
       className="hero"
+      id="top"
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <p className="status">● Available for Junior Developer Opportunities</p>
+      <p className="status"><span aria-hidden="true">●</span> Cape Town · Available remotely</p>
 
       <h1>
-        Hi, I'm <span>Shafiek Walker</span>
+        I build digital experiences <span>that work.</span>
       </h1>
 
-      <h2>
-  Technical Designer • Frontend Developer • Problem Solver
-</h2>
+      <h2>Shafiek Walker — web developer, Webflow builder and technical designer.</h2>
 
       <p className="intro">
-        I'm transitioning from a career in design and technical detailing into
-        software development. Currently learning JavaScript, React, Python and
-        modern web development.
+        I turn clear ideas into responsive websites with strong visual hierarchy,
+        clean builds and practical user journeys — from custom front-end work to
+        conversion-focused Webflow execution.
       </p>
 
-      <button className="hero-btn">View Projects</button>
+      <div className="hero-actions">
+        <a className="button button-primary" href="#projects">Explore my work ↓</a>
+        <a
+          className="button button-ghost"
+          href="https://github.com/shafiekwalker7861"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub ↗
+        </a>
+      </div>
     </motion.section>
   );
 }

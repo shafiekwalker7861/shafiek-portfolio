@@ -10,8 +10,7 @@ import Hero from "./components/Hero";
 import Terminal from "./components/Terminal";
 import Projects from "./components/Projects";
 import MouseGlow from "./components/MouseGlow";
-
-
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -22,18 +21,29 @@ function App() {
       <Navbar />
 
       <main className="layout">
-  <Hero />
-  <div>
-    
-    <MusicPlayer />
-    <Terminal />
-    
-  </div>
-</main>
+        <Hero />
+        <div className="terminal-wrap">
+          <Terminal />
+        </div>
+      </main>
+
+      <aside className="signal-strip" aria-label="Portfolio highlights">
+        <span>04 live web builds</span>
+        <span>03 Webflow-ready concepts</span>
+        <span>React + JavaScript</span>
+        <span>Responsive + SEO aware</span>
+      </aside>
+
       <About />
       <Projects />
       <Skills />
-      
+      <Contact />
+      <MusicPlayer />
+
+      <footer className="footer">
+        <p>Designed and developed by Shafiek Walker.</p>
+        <a href="#top" aria-label="Back to the top">Back to top ↑</a>
+      </footer>
     </div>
   );
 }
