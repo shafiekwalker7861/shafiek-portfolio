@@ -30,7 +30,7 @@ function App() {
       <aside className="signal-strip" aria-label="Portfolio highlights">
         <span>04 live web builds</span>
         <span>03 Webflow-ready concepts</span>
-        <span>React + JavaScript</span>
+        <span>Software development</span>
         <span>Responsive + SEO aware</span>
       </aside>
 

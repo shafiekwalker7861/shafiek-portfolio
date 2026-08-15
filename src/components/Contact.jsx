@@ -6,7 +6,7 @@ function Contact() {
         <div>
           <h2>Have a site to build,<br />improve or maintain?</h2>
           <p>
-            I’m available for Webflow execution, frontend development and
+            I’m available for Webflow execution, software development and
             design-led web projects — locally in Cape Town or remotely.
           </p>
         </div>
@@ -19,6 +19,9 @@ function Contact() {
           </a>
           <a href="https://github.com/shafiekwalker7861" target="_blank" rel="noopener noreferrer">
             GitHub <span>↗</span>
+          </a>
+          <a href="https://www.codewars.com/users/Shafiek_Walker" target="_blank" rel="noopener noreferrer">
+            Codewars <span>↗</span>
           </a>
           <a href="https://capetown3drenders.co.za/" target="_blank" rel="noopener noreferrer">
             CT3DR <span>↗</span>

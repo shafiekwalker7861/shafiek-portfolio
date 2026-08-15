@@ -11,13 +11,17 @@ function Terminal() {
   const commands = {
     help: ["Available commands:", "about", "skills", "projects", "webflow", "contact", "clear"],
     about: [
-      "Cape Town–based web developer and technical designer.",
+      "Cape Town–based software developer and technical designer.",
       "I build responsive, purposeful digital experiences.",
     ],
     skills: ["Webflow", "HTML + CSS", "JavaScript", "React", "Git + GitHub", "On-page SEO"],
     projects: ["CT3DR", "The Interior Company", "The Fix Hub", "Cape Town Designer", "TV Show Project"],
     webflow: ["3 conversion-led concepts:", "Evergreen Lawn Care", "Northline Landscapes", "Harbor Home Services"],
-    contact: ["Email: shafiekwalker1@gmail.com", "GitHub: shafiekwalker7861"],
+    contact: [
+      "Email: shafiekwalker1@gmail.com",
+      "GitHub: shafiekwalker7861",
+      "Codewars: Shafiek_Walker",
+    ],
   };
 
   function handleCommand(e) {

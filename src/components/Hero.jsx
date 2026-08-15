@@ -15,7 +15,7 @@ function Hero() {
         I build digital experiences <span>that work.</span>
       </h1>
 
-      <h2>Shafiek Walker — web developer, Webflow builder and technical designer.</h2>
+      <h2>Shafiek Walker — software developer, Webflow builder and technical designer.</h2>
 
       <p className="intro">
         I turn clear ideas into responsive websites with strong visual hierarchy,
@@ -32,6 +32,14 @@ function Hero() {
           rel="noopener noreferrer"
         >
           GitHub ↗
+        </a>
+        <a
+          className="button button-ghost"
+          href="https://www.codewars.com/users/Shafiek_Walker"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Codewars ↗
         </a>
       </div>
     </motion.section>

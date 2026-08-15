@@ -18,7 +18,7 @@ function About() {
       <div className="about-grid">
         <div className="about-copy">
           <p>
-            I’m a Cape Town–based developer and designer with a background in CAD,
+            I’m a Cape Town–based software developer and designer with a background in CAD,
             technical detailing, 3D visualisation and web design. That mix taught me
             to balance precision with presentation — and to keep the end user in view.
           </p>
