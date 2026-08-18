@@ -60,6 +60,39 @@ const projects = [
     links: [],
   },
   {
+    title: "Moyo Home Market",
+    category: "wordpress",
+    eyebrow: "WordPress concept · WooCommerce",
+    description: "A warm, product-led online store concept with category browsing, featured products and a clear mobile shopping journey.",
+    accent: "commerce",
+    featured: true,
+    links: [{ label: "Explore concept", url: `${conceptBase}/moyo-home.html` }],
+  },
+  {
+    title: "Atlantic Keys Property",
+    category: "wordpress",
+    eyebrow: "WordPress concept · Property listings",
+    description: "A polished real-estate concept designed around searchable listings, neighbourhood discovery and qualified agent enquiries.",
+    accent: "property",
+    links: [{ label: "Explore concept", url: `${conceptBase}/atlantic-keys.html` }],
+  },
+  {
+    title: "BrightPath Learning",
+    category: "wordpress",
+    eyebrow: "WordPress concept · Courses & membership",
+    description: "A friendly learning-platform concept with course discovery, progress cues and a structure ready for LMS or membership tools.",
+    accent: "learning",
+    links: [{ label: "Explore concept", url: `${conceptBase}/brightpath.html` }],
+  },
+  {
+    title: "Harbour Dental Care",
+    category: "wordpress",
+    eyebrow: "WordPress concept · Local healthcare",
+    description: "A reassuring service website concept with treatment pages, trust signals, appointment conversion and local-search structure.",
+    accent: "dental",
+    links: [{ label: "Explore concept", url: `${conceptBase}/harbour-dental.html` }],
+  },
+  {
     title: "Evergreen Lawn Care",
     category: "webflow",
     eyebrow: "Webflow-ready concept · Lawn care",
@@ -114,6 +147,7 @@ const projects = [
 
 const filters = [
   { id: "live", label: "Live websites", count: "06" },
+  { id: "wordpress", label: "WordPress concepts", count: "04" },
   { id: "webflow", label: "Webflow concepts", count: "03" },
   { id: "learning", label: "Development work", count: "03" },
 ];
@@ -130,7 +164,7 @@ function Projects() {
           <h2>Different briefs.<br />Different visual languages.</h2>
         </div>
         <p className="section-intro">
-          Live client work, self-initiated Webflow-ready concepts and hands-on development projects.
+          Live client work, self-initiated WordPress and Webflow concepts, and hands-on development projects.
         </p>
       </div>
 
@@ -195,6 +229,12 @@ function Projects() {
       {activeFilter === "webflow" && (
         <p className="concept-note">
           These self-initiated, Webflow-ready portfolio builds demonstrate sector-specific design and conversion thinking.
+        </p>
+      )}
+
+      {activeFilter === "wordpress" && (
+        <p className="concept-note">
+          These self-initiated WordPress portfolio concepts are fictional briefs created to demonstrate WooCommerce, listings, learning and service-business use cases. They are not live client websites.
         </p>
       )}
 

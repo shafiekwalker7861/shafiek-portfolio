@@ -801,6 +801,40 @@
   background: rgba(7, 41, 22, 0.28);
 }
 
+.project-commerce .generated-preview {
+  color: #31170e;
+  background:
+    radial-gradient(circle at 78% 20%, rgba(255, 255, 255, 0.5), transparent 21%),
+    linear-gradient(145deg, #f6dfc6, #df8f61 66%, #8e3b2d);
+}
+
+.project-commerce .generated-preview i {
+  background: rgba(75, 30, 19, 0.3);
+}
+
+.project-property .generated-preview {
+  background:
+    linear-gradient(115deg, transparent 53%, rgba(226, 174, 82, 0.18) 53% 55%, transparent 55%),
+    linear-gradient(145deg, #102b3c, #071721 65%, #b67a2c 170%);
+}
+
+.project-learning .generated-preview {
+  background:
+    radial-gradient(circle at 78% 23%, rgba(255, 211, 101, 0.22), transparent 21%),
+    linear-gradient(145deg, #533b78, #251b3e 65%, #f1bf57 180%);
+}
+
+.project-dental .generated-preview {
+  color: #072f34;
+  background:
+    radial-gradient(circle at 78% 22%, rgba(255, 255, 255, 0.68), transparent 22%),
+    linear-gradient(145deg, #d9f5ef, #68c9bd 67%, #087882);
+}
+
+.project-dental .generated-preview i {
+  background: rgba(5, 73, 80, 0.28);
+}
+
 .project-red .project-visual::after,
 .project-orange .project-visual::after,
 .project-ocean .project-visual::after,
@@ -848,7 +882,7 @@
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   margin-top: 76px;
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);

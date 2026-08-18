@@ -15,12 +15,12 @@ function Hero() {
         I build digital experiences <span>that work.</span>
       </h1>
 
-      <h2>Shafiek Walker — software developer, Webflow builder and technical designer.</h2>
+      <h2>Shafiek Walker — software developer, WordPress &amp; Webflow builder and technical designer.</h2>
 
       <p className="intro">
         I turn clear ideas into responsive websites with strong visual hierarchy,
-        clean builds and practical user journeys — from custom front-end work to
-        conversion-focused Webflow execution.
+        clean builds and practical user journeys — from flexible WordPress sites
+        and WooCommerce stores to custom front-end and Webflow execution.
       </p>
 
       <div className="hero-actions">

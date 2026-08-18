@@ -23,16 +23,16 @@ function About() {
             to balance precision with presentation — and to keep the end user in view.
           </p>
           <p>
-            Today I build and maintain responsive web experiences using Webflow,
-            JavaScript and React. I care about the details that make a site useful:
-            clear content, purposeful interactions, fast pages and SEO-ready structure.
+            Today I build and maintain responsive web experiences using WordPress,
+            Webflow, JavaScript and React. I care about the details that make a site useful:
+            simple content editing, purposeful interactions, fast pages and SEO-ready structure.
           </p>
         </div>
 
         <div className="about-note">
           <span>Current focus</span>
-          <strong>Webflow execution for service businesses</strong>
-          <p>Responsive builds · CMS · on-page SEO · quality control</p>
+          <strong>WordPress &amp; Webflow builds for growing businesses</strong>
+          <p>CMS · WooCommerce · responsive builds · on-page SEO · maintenance</p>
         </div>
       </div>
 
@@ -41,7 +41,7 @@ function About() {
         <span aria-hidden="true">→</span>
         <div><small>Expansion</small>3D + web design</div>
         <span aria-hidden="true">→</span>
-        <div><small>Now</small>Frontend + Webflow</div>
+        <div><small>Now</small>Frontend + WordPress</div>
       </div>
 
       <a className="section-handoff" href="#projects">

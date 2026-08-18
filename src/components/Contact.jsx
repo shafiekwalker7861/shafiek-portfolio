@@ -6,8 +6,8 @@ function Contact() {
         <div>
           <h2>Have a site to build,<br />improve or maintain?</h2>
           <p>
-            I’m available for Webflow execution, software development and
-            design-led web projects — locally in Cape Town or remotely.
+            I’m available for WordPress and WooCommerce builds, Webflow execution,
+            software development and design-led web projects — locally in Cape Town or remotely.
           </p>
         </div>
 
